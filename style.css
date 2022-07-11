@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;
+}
+
+.list{
+    width: 100%;
+    /* color: aquamarine; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.list ul {
+    list-style: none; 
+}
+
+.list1 {
+    margin-top: 30px;
+} 
+
+#inpt{
+    padding:5px;
+    border-radius: 10px 5px;
+    border-color: black;
+}
+
+#btn{
+    padding: 5px;
+    margin-left: 5px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #216f83;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #325e68, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
